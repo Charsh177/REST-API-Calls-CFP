@@ -4,12 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestApiCallApplication {
+public class HelloWorldApplication {
 
 	public static void main(String[] args) {
 		
 		System.out.println("Hello from BridgeLabz");
-		SpringApplication.run(RestApiCallApplication.class, args);
+		SpringApplication.run(HelloWorldApplication.class, args);
 	}
 
 }
